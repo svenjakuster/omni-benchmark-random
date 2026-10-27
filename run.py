@@ -73,4 +73,4 @@ clustering_info = {
 }
 
 with open(os.path.join(args.output_dir, args.name + ".clustering_info.json"), "w") as file:
-    json.dump(clustering_info, file
+    json.dump(clustering_info, file)
